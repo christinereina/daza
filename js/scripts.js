@@ -40,6 +40,7 @@ $(document).ready(function() {
     var newPizza = new Pizza (size, crust, meat);
     newPizza.calculateOrder();
     newPizza.addToppings();
+    $("#output").show();
     $('div#output').text(`Order Total: ${newPizza.price}`)
     console.log(newPizza.price)
   });

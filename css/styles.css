@@ -1,3 +1,22 @@
 body {
   background-color: lightslategray;
 }
+
+#header {
+  background-image: url(/assets/testing1.jpg);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+#output {
+  display: none;
+}
