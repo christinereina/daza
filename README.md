@@ -18,6 +18,10 @@
 
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
+| Customer chooses size | Customer clicks "**Large**" | Large is $16|
+| Customer chooses crust | Customer clicks "**Gluten Free**" | gluten free cost is an additional $1.50|
+| Customer chooses "meat" toppings | Customer clicks "**Soy Chorizo**" | each  "meat" topping is $1.50|
+| Customer is finished with order| Customer clicks "**Submit**" | size + crust + each "meat" topping cost is added up & final cost is displayed, ex. Large, Gluten Free, Soy Chorizo, Spinach = **Your Total Order: $19.00**|
 
 
 ## Known Bugs
