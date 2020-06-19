@@ -1,22 +1,50 @@
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
 body {
   background-color: lightslategray;
 }
 
 #header {
-  background-image: url(/assets/testing1.jpg);
+  background-image: url(/assets/header.jpg);
   background-size: cover;
   width: auto;
-  height: 500px;
+  height: 600px;
+  border: white;
 }
 
 h1 {
-  color: white;
+  color:yellow;
+  font-size: 150px;
+  text-align: left;
+  font-family: 'Bungee Shade', cursive;
+  padding-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 55px;
 }
 
 h3 {
+  font-family: 'Lacquer', cursive;
   color: white;
+  font-size: 55px;
+  text-align: center;
 }
 
 #output {
   display: none;
 }
+
+.card-columns {
+  display: inline-block;
+}
+

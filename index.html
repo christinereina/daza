@@ -3,21 +3,74 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.css" rel="stylesheet" type = "text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type ="text/css">
     <link href="css/styles.css" rel="stylesheet" type = "text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Lacquer&family=Mansalva&family=Roboto&family=Shrikhand&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Bahianita&family=Barriecito&family=Bungee+Shade&family=Dokdo&family=Jacques+Francois+Shadow&family=Lacquer&family=Londrina+Outline&family=Modak&family=Montserrat:wght@500&family=Odibee+Sans&family=Shrikhand&family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/icon.jpg" type="image/x-icon">
     <title> GO-GO for DA ZA</title>
   </head>
   <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
     <div class="container">
       <div class="well" id="header">
         <h1>Daza Pizza</h1>
-        <h2>Guilt Free.</h2>
-        <h2>Plant Based.</h2>
-        <h2>Black Owned.</h2>
+        <h3>Guilt Free. Open Late. Neighborhood Style. Black Owned.</h3>
       </div>
       <!-- pizza order form -->
       <form id="pizza">
@@ -74,7 +127,7 @@
     </div>
     </div>
         <div class="col-md-6">
-          <div class="well">
+          <div class="well" id="veg">
          <h2>Choose your vegs</h2>
             <div class="form-group">
               <input type="checkbox" name="veg" value="vegtop"> Artichokes <br>

@@ -41,6 +41,9 @@ blacchoy@gmail.com
 * JavaScript
 * jQuery 
 
+## Special Thanks
+<span>Header Photo by <a href="https://unsplash.com/@createdbychris?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christian Smith</a> on <a href="/s/photos/black-nyc-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 ### License
 
 Licensed for usage under the MIT license.
