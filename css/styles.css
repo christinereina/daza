@@ -12,7 +12,7 @@ body {
 }
 
 #header {
-  background-image: url(/assets/header.jpg);
+  background-image: url(../assets/header.jpg);
   background-size: cover;
   width: auto;
   height: 600px;
