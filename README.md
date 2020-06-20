@@ -1,4 +1,4 @@
-# _[DaZa Pizza]()_
+# _[Daza Pizza](https://christinereina.github.io/daza/)_
 
 #### _Epicodus::Week Four:: Object Oriented JavaScript Independent Project, 6/19/2020_
 
@@ -6,14 +6,21 @@
 
 ## Description:
 
-This is my page for a fictional pizza shop called Daza. You can place your orders now.
+This is my page for a fictional vegan pizza shop in Brooklyn called Daza. You can create your own pizza with various different toppings and selections for a price. 
+
+## Stretch Goals
+
+as of 6/19
+* need to fix submit button
+* add some responsiveness to user selections
+* update user output for styling
 
 ## Setup/Installation Requirements
 
 * Clone the project from its GitHub repository (https://github.com/christinereina/daza.git)
 * Open in your code editor of choice.
 * Drag index.html file into your browser or double click it to view site.
-* You can view this project live on GitHub Pages [here]()
+* You can view this project live on GitHub Pages [here](https://christinereina.github.io/daza/)
 
 ## Specifications
 
