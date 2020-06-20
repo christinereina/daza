@@ -1,4 +1,4 @@
-# _[ Z A]()_
+# _[DaZa Pizza]()_
 
 #### _Epicodus::Week Four:: Object Oriented JavaScript Independent Project, 6/19/2020_
 
@@ -6,10 +6,11 @@
 
 ## Description:
 
+This is my page for a fictional pizza shop called Daza. You can place your orders now.
 
 ## Setup/Installation Requirements
 
-* Clone the project from its GitHub repository ()
+* Clone the project from its GitHub repository (https://github.com/christinereina/daza.git)
 * Open in your code editor of choice.
 * Drag index.html file into your browser or double click it to view site.
 * You can view this project live on GitHub Pages [here]()
@@ -42,7 +43,7 @@ blacchoy@gmail.com
 * jQuery 
 
 ## Special Thanks
-<span>Header Photo by <a href="https://unsplash.com/@createdbychris?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christian Smith</a> on <a href="/s/photos/black-nyc-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+* <span>Header Photo by <a href="https://unsplash.com/@createdbychris?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christian Smith</a> on <a href="/s/photos/black-nyc-people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 ### License
 
