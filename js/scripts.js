@@ -32,7 +32,6 @@ Pizza.prototype.calculateOrder = function () {
 // user logic
 
 $(document).ready(function() {
-
   $('#order').click(function(){
     $(".orderForm").show();
     });
