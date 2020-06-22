@@ -46,6 +46,7 @@ $(document).ready(function() {
     newPizza.addToppings();
     $(".output").show();
     $(".orderForm").hide();
+    $("#order").hide();
     $('div#output').text(`Order Total: ${newPizza.price}`)
     console.log(newPizza.price)
   });
