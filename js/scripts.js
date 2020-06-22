@@ -32,6 +32,11 @@ Pizza.prototype.calculateOrder = function () {
 // user logic
 
 $(document).ready(function() {
+
+  $('#order').click(function(){
+    $(".orderForm").show();
+    });
+
   $("#pizza").submit(function(event) {
     event.preventDefault();
     let size = $("input[name=size]:checked").val();
