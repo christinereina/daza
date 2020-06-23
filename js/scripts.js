@@ -18,15 +18,8 @@ Pizza.prototype.calculateOrder = function () {
   } else if (this.crust === "cauliflower") {
     this.price += 2;
   }
-  return this.price;
-  };
-
-  Pizza.prototype.addToppings = function () {
-    // for (var counter = 0; counter < userInput; counter +)
-    if (this.meat === "1") {
-      this.price += 1.50;
-  }
-  return this.price;
+      this.price += this.meat.length;
+      return this.price;
   };
 
 // user logic
@@ -34,20 +27,23 @@ Pizza.prototype.calculateOrder = function () {
 $(document).ready(function() {
   $('#order').click(function(){
     $(".orderForm").show();
+    $("#header").hide();
     });
 
   $("#pizza").submit(function(event) {
     event.preventDefault();
     let size = $("input[name=size]:checked").val();
     let crust = $("input[name=crust]:checked").val();
-    let meat = $("input[name=meat]:checked").val();
+    let meat = []
+    $("input[name=meat]:checked").each(function() {
+      meat.push($(this).val());
+    });
+
     var newPizza = new Pizza (size, crust, meat);
     newPizza.calculateOrder();
-    newPizza.addToppings();
     $(".output").show();
     $(".orderForm").hide();
     $("#order").hide();
     $('div#output').text(`Order Total: ${newPizza.price}`)
-    console.log(newPizza.price)
   });
 });
