@@ -8,13 +8,6 @@
 
 This is my page for a fictional vegan pizza shop in Brooklyn called Daza. You can create your own pizza with various different toppings and selections for a price. 
 
-## Stretch Goals
-
-as of 6/19
-* need to fix submit button
-* add some responsiveness to user selections
-* update user output for styling
-
 ## Setup/Installation Requirements
 
 * Clone the project from its GitHub repository (https://github.com/christinereina/daza.git)
